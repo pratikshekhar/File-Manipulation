@@ -1,0 +1,31 @@
+NAME: Pratik Shekhar
+Course: CS 283 Systems Programming 
+Lab: 2 File Manipulation 
+
+To run this program, please follow the following instructions listed below:
+1. Type : make sync DIR1=a DIR2=b and hit enter
+
+
+
+TEST RUNS:
+
+Pratiks-MacBook-Pro-2:l2 pratikshekhar$ make sync DIR1=a DIR2=b
+gcc -o main L2.c
+./main ./a ./b
+
+./b/third.txt was not found at ./a/third.txt. 	 Deleted.
+./a/first.txt was not found at ./b/first.txt. 	 The File has been created.
+./b/second.txt has a more recent modification date than ./a/second.txt. 	 File has been updated.
+
+rm -f ./main
+
+I learned a lot from this assignemnt about file manipulation. I completed this lab with help from my TA's, class mates and by going through few online tutorials listed below:
+
+http://man7.org/linux/man-pages/man3/nftw.3.html
+http://pubs.opengroup.org/onlinepubs/7908799/xsh/sysstat.h.html
+http://pubs.opengroup.org/onlinepubs/009695399/basedefs/fcntl.h.html
+http://pubs.opengroup.org/onlinepubs/7908799/xsh/unistd.h.html
+
+
+
+
